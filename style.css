@@ -15,6 +15,7 @@ header {
     padding: 1rem ;
     width: 100%;
     box-shadow: 0 4px 6px rgba(0, 0, 0, 0.573);
+    border-bottom:1.5px solid rgba(248, 150, 75, 0.573);
     
 
 }
@@ -56,4 +57,5 @@ header nav ul li a.active,
 header ul li a:hover{
     color: rgb(244, 8, 8);
     
+
 }
