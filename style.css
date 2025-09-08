@@ -1,0 +1,59 @@
+
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    background-color: rgb(255, 255, 255);
+    color: rgb(0, 0, 0);
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 1rem ;
+    width: 100%;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.573);
+    
+
+}
+
+.banner{
+   
+   width: 100% ;
+   overflow: hidden;
+}
+
+.banner  img{
+    width: 100%;
+    height: auto;
+    object-fit: cover;
+    display: block;
+}
+
+body{
+    font-family: "Macondo", cursive;
+}
+
+
+
+
+header ul{
+    display: flex;
+    list-style: none;
+    gap: 2rem;
+    
+}
+
+header ul li a{
+    color: rgb(2, 9, 15);
+    text-decoration: none;
+    transition: all .3s;
+}
+ 
+header nav ul li a.active,
+header ul li a:hover{
+    color: rgb(244, 8, 8);
+    
+}
